@@ -19,11 +19,11 @@ export default function HeroSection({
       {/* Background with Luxury Architectural Image & Monochrome Navy Gradients */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=2000&q=80"
-          alt="Paragon City Luxury Villas"
-          className="w-full h-full object-cover opacity-20"
+          src="/images/hero-bg.jpg"
+          alt="Paragon City Main Gate"
+          className="w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#011639]/95 via-[#011639]/85 to-[#011639]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#011639]/50 via-[#011639]/40 to-[#011639]"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
